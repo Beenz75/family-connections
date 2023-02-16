@@ -1,10 +1,11 @@
 .crest {
-  width: 60%;
+  width: 20%;
+  padding-left: 200px;
 }
 
 .crest-title {
   margin-top: 0;
-  font-size: 20px;
+  font-size: 14px;
   font-weight: 500;
   line-height: 20px;
   margin-bottom: 10px;
@@ -12,12 +13,16 @@
 
 .crest-info-grid {
   display: grid;
-  grid-template-columns: 50px 1fr;
+  grid-template-columns: 1fr;
+  font-size: 10px;
+  padding-left: 200px;
 }
+
 
 .crest-picture {
   margin-top: 5px;
   width: 36px;
+  text-align: center;
 }
 
 .crest-row {
@@ -27,7 +32,7 @@
 
 .year,
 .click-crest {
-  font-size: 18px;
+  font-size: 12px;
   color: rgb(96, 96, 96);
 }
 
@@ -42,7 +47,7 @@
   row-gap: 40px;
 }
 
-@media (max-width: 500px) {
+@media (max-width: 700px) {
   .crest-grid {
     grid-template-columns: 1fr;  
   }
@@ -54,11 +59,16 @@
   }
 }
 
-@media (min-width: 801px) and (max-width: 1000px) {
+@media (max-width: 900px) {
   .crest-grid {
     grid-template-columns: 1fr 1fr 1fr;
   }
 }
 
+@media (min-width: 901px) and (max-width: 1000px) {
+  .crest-grid {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
 
+}
 
