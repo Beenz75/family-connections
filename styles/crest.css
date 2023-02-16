@@ -1,0 +1,64 @@
+.crest {
+  width: 60%;
+}
+
+.crest-title {
+  margin-top: 0;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 20px;
+  margin-bottom: 10px;
+}
+
+.crest-info-grid {
+  display: grid;
+  grid-template-columns: 50px 1fr;
+}
+
+.crest-picture {
+  margin-top: 5px;
+  width: 36px;
+}
+
+.crest-row {
+  margin-bottom: 8px;
+  position: relative;
+}
+
+.year,
+.click-crest {
+  font-size: 18px;
+  color: rgb(96, 96, 96);
+}
+
+.year {
+  margin-bottom: 4px;
+}
+
+.crest-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 16px;
+  row-gap: 40px;
+}
+
+@media (max-width: 500px) {
+  .crest-grid {
+    grid-template-columns: 1fr;  
+  }
+}
+
+@media (max-width: 800px) {
+  .crest-grid {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media (min-width: 801px) and (max-width: 1000px) {
+  .crest-grid {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+
+
+
