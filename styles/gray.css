@@ -1,69 +1,53 @@
-.watermark {
-  width: 300px;
-  height: 500px;
-  display: block;
-  position: static;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-attachment: fixed;
-  background-position: center;
+.flexbox-container {
+display: flex;
+gap: 2rem;
+justify-content: center;
 }
 
-.watermark::after {
-  background-repeat: no-repeat;
-  content: "";
-  background: url(/images/family-crests/gray-crest.png);
-  opacity: 0.08;
-  top: 0;
-  left: 0;
-  bottom: 0;
-  right: 0;
-  position: absolute;
-  z-index: -1;   
+.flexbox-item {
+  width: 200px;
+  margin: 10px;
+
+ 
 }
 
-.seaforth-highlander-crest {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  height: fit-content;
-  width: fit-content;
-  
+.flexbox-item-1 {
+min-height: 300px;
+text-align: justify;
+display: inline-block;
+vertical-align: middle;
 }
 
-.peter-title {
-  text-align: center;
-  font-weight: 800;
-  font-size: 40px;
-  padding-top: 20px;
-  padding-bottom: 5px;
+.flexbox-item-2 {
+min-height: 300px;  
 }
 
-.main {
-  
+.flexbox-item-3 {
+min-height: 300px; 
+text-align: justify;
+display: inline-block;
+vertical-align: middle;
 }
 
-.txt_here {
-  text-align: left;
-  font-size: x-large;
-}
+.flexbox-item-4 {
+  min-height: 300px; 
+  text-align: justify;
+  display: inline-block;
+  vertical-align: middle;
+  }
 
-.txt_here-2 {
-  text-align: center;
-  justify-content: center;
-  font-size: x-large;
-}
-
-.row {
-  align-items: center;
-  justify-content: center;
-  text-align: center;
-  padding-top: 30px;
-  padding-bottom: 50px;
-}
-
-#seaforth-info {
-  text-align: center;
-  font-size: larger;
-  padding-bottom: 100px;
+  .flexbox-item-5 {
+    min-height: 300px; 
+    text-align: justify;
+    display: inline-block;
+    vertical-align: middle;
+    }
+    .flexbox-item-6 {
+      min-height: 300px; 
+      text-align: justify;
+      display: inline-block;
+      vertical-align: middle;
+      }
+.peter-coin{
+  display: inline;
 }
