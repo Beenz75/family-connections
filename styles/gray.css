@@ -1,53 +1,57 @@
+
+
+
 .flexbox-container {
 display: flex;
 gap: 2rem;
 justify-content: center;
+
 }
 
 .flexbox-item {
-  width: 200px;
+  width: 300px;
   margin: 10px;
 
- 
+
 }
 
 .flexbox-item-1 {
-min-height: 300px;
 text-align: justify;
-display: inline-block;
 vertical-align: middle;
 }
 
-.flexbox-item-2 {
-min-height: 300px;  
+.flexbox-item-2 { 
 }
 
 .flexbox-item-3 {
-min-height: 300px; 
 text-align: justify;
-display: inline-block;
 vertical-align: middle;
+
 }
 
 .flexbox-item-4 {
-  min-height: 300px; 
   text-align: justify;
-  display: inline-block;
   vertical-align: middle;
   }
 
-  .flexbox-item-5 {
-    min-height: 300px; 
+  .flexbox-item-5 { 
     text-align: justify;
-    display: inline-block;
-    vertical-align: middle;
+    vertical-align: top;
+    border: solid 5px red;
     }
-    .flexbox-item-6 {
-      min-height: 300px; 
-      text-align: justify;
-      display: inline-block;
+    .flexbox-item-6 { 
+      text-align: center;
       vertical-align: middle;
       }
+
 .peter-coin{
   display: inline;
+ 
+  ;
+}
+.peter.scroll {
+
+}
+.seaforth-crest {
+  text-align: center;
 }
