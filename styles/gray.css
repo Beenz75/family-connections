@@ -21,6 +21,7 @@ vertical-align: middle;
 }
 
 .flexbox-item-2 { 
+  vertical-align: middle;  
 }
 
 .flexbox-item-3 {
@@ -37,7 +38,7 @@ vertical-align: middle;
   .flexbox-item-5 { 
     text-align: justify;
     vertical-align: top;
-    border: solid 5px red;
+
     }
     .flexbox-item-6 { 
       text-align: center;
@@ -47,11 +48,8 @@ vertical-align: middle;
 .peter-coin{
   display: inline;
  
-  ;
 }
-.peter.scroll {
 
-}
 .seaforth-crest {
   text-align: center;
 }
